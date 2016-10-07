@@ -39,8 +39,8 @@
 #include <gnuradio/blocks/udp_sink.h>
 #include <gnuradio/blocks/message_debug.h>
 #include <boost/circular_buffer.hpp>
-#include "dsp/rds/decoder.h"
-#include "dsp/rds/parser.h"
+#include <rds/decoder.h>
+#include <rds/parser.h>
 
 class rx_rds;
 class rx_rds_store;

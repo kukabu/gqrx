@@ -33,8 +33,6 @@
 #include "dsp/stereo_demod.h"
 #include "dsp/resampler_xx.h"
 #include "dsp/rx_rds.h"
-#include "dsp/rds/decoder.h"
-#include "dsp/rds/parser.h"
 
 class wfmrx;
 

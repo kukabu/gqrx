@@ -99,8 +99,6 @@ SOURCES += \
     src/dsp/correct_iq_cc.cpp \
     src/dsp/filter/fir_decim.cpp \
     src/dsp/lpf.cpp \
-    src/dsp/rds/decoder_impl.cc \
-    src/dsp/rds/parser_impl.cc \
     src/dsp/resampler_xx.cpp \
     src/dsp/rx_agc_xx.cpp \
     src/dsp/rx_demod_am.cpp \
@@ -152,12 +150,6 @@ HEADERS += \
     src/dsp/filter/fir_decim.h \
     src/dsp/filter/fir_decim_coef.h \
     src/dsp/lpf.h \
-    src/dsp/rds/api.h \
-    src/dsp/rds/parser.h \
-    src/dsp/rds/decoder.h \
-    src/dsp/rds/decoder_impl.h \
-    src/dsp/rds/parser_impl.h \
-    src/dsp/rds/constants.h \
     src/dsp/resampler_xx.h \
     src/dsp/rx_agc_xx.h \
     src/dsp/rx_demod_am.h \
@@ -274,3 +266,6 @@ OTHER_FILES += \
     README.md \
     COPYING \
     news.txt
+
+INCLUDEPATH += "/usr/include/rds/gnuradio"
+LIBS += "-lgnuradio-rds"
