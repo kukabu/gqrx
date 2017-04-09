@@ -30,7 +30,7 @@
 
 #define DEFAULT_RC_PORT            7356
 #define DEFAULT_RC_ALLOWED_HOSTS   "::ffff:127.0.0.1"
-#define DEFAULT_RC_BW_WIN_RATIO    90
+#define DEFAULT_RC_BW_WIN_RATIO    70
 
 RemoteControl::RemoteControl(QObject *parent) :
     QObject(parent)
